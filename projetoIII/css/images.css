@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	margin:0px;
+	padding:0px;
+	height:100vh;
+	width: 100vw;
+	
+}
+
+body{
+	background-color: #242424;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+button{
+	background-color: #000000;
+	color: aliceblue;
+	margin: 0 auto;
+}
+
+.base{
+	width: 1010px;
+	height: 100%;
+	margin: 50px auto;
+}
+
+.grupo1{
+	background-color: black;
+	width: 505px;
+	height: 355px;
+	animation: foda;
+	position: absolute;
+	outline: solid;
+	outline-color: aqua;
+	outline-width: 2.5px;
+}
+
+.imagem1, .imagem2, .imagem3, .imagem4{	
+	width: 200px;
+	height: 200px;
+	background-image: url("../image/IMG_20210616_191518.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: imagemfoda 5s linear infinite;
+	outline: solid;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	position: absolute;}
+
+.imagem1{
+	background-image: url("../image/IMG_20210616_191518.gif");
+	animation: imagemfoda 5s linear infinite;
+}
+
+.imagem2{
+	background-image: url("../image/batata.gif");
+	animation: imagemfoda 15s linear infinite;
+}
+
+.imagem3{
+	background-image: url("../image/revolver ocelot revolver.gif");
+	animation: imagemfoda 10s linear infinite;
+}
+
+.imagem4{
+	background-image: url(../image/walter.png);
+	animation: imagemfoda 4s linear infinite;
+	background-size: contain;
+}
+
+
+
+.grupo2{
+	background-color: black;
+	width: 505px;
+	height: 355px;
+	animation: foda;
+	margin-left: 510px;
+	outline: solid;
+	outline-color: rebeccapurple;
+	outline-width: 2.5px;
+}
+
+.imagem1_2, .imagem2_2, .imagem3_2, .imagem4_2{	
+	width: 200px;
+	height: 200px;
+	background-image: url("../image/IMG_20210616_191518.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: imagemfoda 5s linear infinite;
+	outline: solid;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	position: absolute;
+}
+
+.imagem1_2{
+	background-image: url("../image/IMG_20210616_191518.gif");
+	animation: imagemfoda 4s linear infinite;
+}
+
+.imagem2_2{
+	background-image: url("../image/batata.gif");
+	animation: imagemfoda 10s linear infinite;
+}
+
+.imagem3_2{
+	background-image: url("../image/revolver ocelot revolver.gif");
+	animation: imagemfoda 7s linear infinite;
+}
+
+.imagem4_2{
+	background-image: url(../image/walter.png);
+	animation: imagemfoda 6s linear infinite;
+	background-size: contain;
+}
+
+.grupo3{
+	background-color: black;
+	width: 505px;
+	height: 355px;
+	animation: foda;
+	margin-top: 5px;
+	outline: solid;
+	outline-color: firebrick;
+	outline-width: 2.5px;
+	position: absolute;
+}
+
+.imagem1_3, .imagem2_3, .imagem3_3, .imagem4_3{	
+	width: 200px;
+	height: 200px;
+	background-image: url("../image/IMG_20210616_191518.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: imagemfoda 5s linear infinite;
+	outline: solid;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	position: absolute;
+}
+
+.imagem1_3{
+	background-image: url("../image/IMG_20210616_191518.gif");
+	animation: imagemfoda 6s linear infinite;
+}
+
+.imagem2_3{
+	background-image: url("../image/batata.gif");
+	animation: imagemfoda 13s linear infinite;
+}
+
+.imagem3_3{
+	background-image: url("../image/revolver ocelot revolver.gif");
+	animation: imagemfoda 9s linear infinite;
+}
+
+.imagem4_3{
+	background-image: url(../image/walter.png);
+	animation: imagemfoda 2s linear infinite;
+	background-size: contain;
+}
+
+
+.grupo4{
+	background-color: black;
+	width: 505px;
+	height: 355px;
+	animation: foda;
+	margin-left: 510px;
+	margin-top: 5px;
+	outline: solid;
+	outline-color: gold;
+	outline-width: 2.5px;
+}
+
+.imagem1_4, .imagem2_4, .imagem3_4, .imagem4_4{	
+	width: 200px;
+	height: 200px;
+	background-image: url("../image/IMG_20210616_191518.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	animation: imagemfoda 5s linear infinite;
+	outline: solid;
+	outline-width: 5px;
+	outline-color: #FFFFFF;
+	position: absolute;
+}
+
+.imagem1_4{
+	background-image: url("../image/IMG_20210616_191518.gif");
+	animation: imagemfoda 6s linear infinite;
+}
+
+.imagem2_4{
+	background-image: url("../image/batata.gif");
+	animation: imagemfoda 13s linear infinite;
+}
+
+.imagem3_4{
+	background-image: url("../image/revolver ocelot revolver.gif");
+	animation: imagemfoda 9s linear infinite;
+}
+
+.imagem4_4{
+	background-image: url(../image/walter.png);
+	animation: imagemfoda 2s linear infinite;
+	background-size: contain;
+}
+
+@keyframes imagemfoda{
+	0%  {margin-left: 0px; margin-top: 0px; outline-color: #FFFFFF}
+	25% {margin-top: 0px; margin-left: 300px; outline-color: #FF0004}
+	50% {margin-top: 150px; margin-left: 300px; outline-color: #1200FF}
+	75% {margin-top: 150px; margin-left: 0px; outline-color: #22FF00}
+	100%{margin-left: 0px; margin-top: 0px; outline-color: #FFFFFF}
+}
+

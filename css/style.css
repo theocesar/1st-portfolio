@@ -1,0 +1,139 @@
+/* CORPO */
+
+body{
+    font-family: Nunito, sans-serif;
+    color:black;
+}
+
+h1,h2,h3 {
+    font-family: Asap, sans-serif;
+    color:black;
+}
+
+
+/* Navegação */
+
+nav {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color:grey;
+}
+
+nav > a {
+
+        text-decoration: none;
+        color: darkblue;
+        font-weight: 800;
+        font-size: 32px;
+        font-family: Yellowtail, serif;
+}
+
+nav > ul {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+}        
+
+
+nav ul li {
+
+        text-align: center;
+        width: 100%;
+}
+
+nav ul li a {
+
+        display: inline-block;
+        padding: 10px 0;
+        width: 100%;
+        text-decoration: none;
+        color:blue;
+}
+
+/* Cabeçalho */
+
+header h1 {
+
+        color:black
+
+}
+
+header p{
+
+        margin-bottom: 2em;
+}
+
+#sobre {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 10px 20px 20px;
+        background-color: royalblue;
+}
+
+#sobre h2 {
+    color: blue;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#projeto_inicial {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+}
+
+#projeto_inicial div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+}
+
+#projeto_medial {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+}
+
+#projeto_medial div {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+}
+
+#projeto_final {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#projeto_final div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}

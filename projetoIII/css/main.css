@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{
+	margin:0px;
+	padding:0px;
+	height:100vh;
+	width: 100vw;
+	
+}
+
+body{
+	background-image: url("../image/IMG_20210615_235527.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.base button{
+	background-color: #000000;
+	color: aliceblue;
+	margin: 0 auto;
+}
